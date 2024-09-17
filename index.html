@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <title>Personal Web</title>
+</head>
+
+<body>
+    <header>
+        <h1>Mi Pagina Web</h1>
+    </header>
+    <main id="main-div">
+        <article class="div-section">
+            <h3 class="h3">¿Quién soy?</h3>
+            <p class="p">Desde que descubrí el poder del HTML y CSS para darle vida a los diseños digitales.
+                Cada proyecto es una oportunidad para explorar nuevas técnicas y tecnologías, desafiar los límites de lo
+                posible y dejar una impresión duradera en quienes interactúan con mis creaciones.
+            </p>
+        </article>
+        <section class="div-section">
+            <h3 class="h3">Mis Tecnologias Favoritas</h3>
+            <div id="div-images">
+                <div>
+                    <h4 class="h4">HTML</h4>
+                    <img class="img" src="imagenes/html-st.png" alt="Una imagen del simbolo HTML">
+                </div>
+                <div>
+                    <h4 class="h4">CSS</h4>
+                    <img class="img" src="imagenes/css-st.png" alt="Una imagen del simbolo CSS">
+                </div>
+                <div>
+                    <h4 class="h4">JAVASCRIPT</h4>
+                    <img class="img" src="imagenes/js-st.png" alt="Una imagen del simbolo JAVASCRIPT">
+                </div>
+            </div>
+        </section>
+        <section class="div-section">
+            <fieldset>
+                <legend>Mis Actividades Favoritas</legend>
+                <form action="">
+                    <input id="activity" type="text" placeholder="Nombre de la Actividad">
+                    <textarea id="text-large" placeholder="Descripcion de la actividad" rows="2" maxlength="100"></textarea>
+                    <input id="imgUrl" type="text" placeholder="Link de la imagen">
+                    <button id="btn" type="submit">Agregar Actividad</button>
+                </form>
+            </fieldset>
+            <div id="div-result">
+                <p class="p">Sin actividades por el momento</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="p">@HECHO POR MIRIAM BAUTISTA</p>
+    </footer>
+    <script src="scripts/test.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
