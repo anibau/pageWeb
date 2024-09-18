@@ -1,0 +1,21 @@
+{
+  "name": "pageweb01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jasmine-browser-runner": "^2.5.0",
+    "jasmine-core": "^5.3.0",
+    "live-server": "^1.2.2"
+  },
+  "devDependencies": {
+    "jasmine": "^5.3.0"
+  }
+}
